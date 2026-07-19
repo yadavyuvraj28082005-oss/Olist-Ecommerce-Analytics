@@ -40,7 +40,7 @@ This project analyzes 96,000+ delivered orders from Olist, a Brazilian multi-ven
 
 ## 📈 Dashboard Preview
 
-![Dashboard Overview](screenshots/dashboard_overview.png)
+![Dashboard Overview](dashboard_overview.png)
 
 ## 🔮 Revenue Forecasting
 
