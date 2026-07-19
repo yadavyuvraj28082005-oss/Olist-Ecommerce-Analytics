@@ -17,12 +17,16 @@ This project analyzes 96,000+ delivered orders from Olist, a Brazilian multi-ven
 ## 📁 Project Structure
 
 ```
-├── merge-clean.py        # Merges 9 raw tables into one clean dataset
-├── analysis.py            # Revenue, category, and delivery analysis
-├── olist-database.py      # Loads cleaned data into SQLite (olist.db)
-├── queries.py              # Runs all 10 SQL business queries
+├── merge-clean.py         # Merges 9 raw tables into one clean dataset
+├── analysis.py             # Revenue, category, and delivery analysis
+├── olist-database.py       # Loads cleaned data into SQLite (olist.db)
+├── queries.py               # Runs all 10 SQL business queries
+├── forecast.py              # Forecasts next 3 months of revenue
+├── revenue_forecast.png     # Forecast chart (actual vs predicted)
+├── revenue_forecast.csv     # Forecast output data
 ├── screenshots/
 │   └── dashboard_overview.png   # Final Power BI dashboard
+├── LICENSE
 └── README.md
 ```
 
