@@ -24,6 +24,7 @@ This project analyzes 96,000+ delivered orders from Olist, a Brazilian multi-ven
 ├── forecast.py              # Forecasts next 3 months of revenue
 ├── revenue_forecast.png     # Forecast chart (actual vs predicted)
 ├── revenue_forecast.csv     # Forecast output data
+├── Olist_Analysis.xlsx      # Excel pivot table summaries
 ├── screenshots/
 │   └── dashboard_overview.png   # Final Power BI dashboard
 ├── LICENSE
@@ -40,7 +41,13 @@ This project analyzes 96,000+ delivered orders from Olist, a Brazilian multi-ven
 
 ## 📈 Dashboard Preview
 
-![Dashboard Overview](dashboard_overview.png)
+**Overview** — KPI cards, revenue by state, monthly trend, payment method mix, and geographic revenue map:
+
+![Dashboard Overview](screenshots/dashboard_overview.png)
+
+**Category Analysis** — top product categories by revenue:
+
+![Category Analysis](screenshots/category_analysis.png)
 
 ## 🔮 Revenue Forecasting
 
@@ -80,7 +87,8 @@ Model R² Score: 0.789 · Average monthly growth: R$63,644
    python queries.py
    python forecast.py
    ```
-4. Open the Power BI dashboard file to explore visualizations
+4. `Olist_Analysis.xlsx` contains pivot table summaries (revenue by state, category, and payment type) built from the cleaned data
+5. The Power BI dashboard (screenshot above) was built in Power BI Desktop using `olist_merged_cleaned.csv` — follow the same KPI cards, bar chart, line chart, donut chart, and map visuals shown in the preview to recreate it
 
 ## 👤 Author
 
