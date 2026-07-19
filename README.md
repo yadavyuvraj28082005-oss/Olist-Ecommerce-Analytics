@@ -36,7 +36,21 @@ This project analyzes 96,000+ delivered orders from Olist, a Brazilian multi-ven
 
 ## 📈 Dashboard Preview
 
-![Dashboard Overview](dashboard_overview.png)
+![Dashboard Overview](screenshots/dashboard_overview.png)
+
+## 🔮 Revenue Forecasting
+
+Used a linear regression model (`forecast.py`) on monthly revenue trend to project the next 3 months of sales.
+
+| Month | Forecasted Revenue |
+|---|---|
+| Sep 2018 | R$1.65M |
+| Oct 2018 | R$1.72M |
+| Nov 2018 | R$1.78M |
+
+Model R² Score: 0.789 · Average monthly growth: R$63,644
+
+![Revenue Forecast](revenue_forecast.png)
 
 ## 📌 Key Findings
 
@@ -60,6 +74,7 @@ This project analyzes 96,000+ delivered orders from Olist, a Brazilian multi-ven
    python analysis.py
    python olist-database.py
    python queries.py
+   python forecast.py
    ```
 4. Open the Power BI dashboard file to explore visualizations
 
