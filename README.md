@@ -12,6 +12,7 @@ This project analyzes 96,000+ delivered orders from Olist, a Brazilian multi-ven
 
 - **Python (Pandas)** — data cleaning, merging, and exploratory analysis
 - **SQL (SQLite)** — business queries, joins, aggregations
+- **Excel** — pivot table summaries (revenue by state, category, payment type)
 - **Power BI** — interactive dashboard and visualizations
 
 ## 📁 Project Structure
@@ -37,7 +38,8 @@ This project analyzes 96,000+ delivered orders from Olist, a Brazilian multi-ven
 2. **Python Analysis** (`analysis.py`) — Explored revenue by state, top product categories, monthly trends, delivery delay vs review score correlation, payment type distribution, and top sellers.
 3. **SQLite Load** (`olist-database.py`) — Loaded the cleaned dataset into a SQLite database for SQL-based querying.
 4. **SQL Business Queries** (`queries.py`) — Ran 10 queries covering state-wise revenue, top categories, delivery performance, repeat customers, and seller concentration using joins, subqueries, and aggregations.
-5. **Power BI Dashboard** — Built an interactive dashboard with KPI cards, a revenue-by-state bar chart, a monthly revenue trend line chart, a payment method donut chart, and a geographic revenue map.
+5. **Excel Pivot Tables** (`Olist_Analysis.xlsx`) — Built pivot table summaries for revenue by state, revenue by product category, and payment type distribution, using formulas linked to the raw data so they update automatically.
+6. **Power BI Dashboard** — Built an interactive dashboard with KPI cards, a revenue-by-state bar chart, a monthly revenue trend line chart, a payment method donut chart, a geographic revenue map, and a top product categories chart.
 
 ## 📈 Dashboard Preview
 
