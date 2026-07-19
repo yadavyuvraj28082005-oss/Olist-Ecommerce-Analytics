@@ -45,11 +45,11 @@ This project analyzes 96,000+ delivered orders from Olist, a Brazilian multi-ven
 
 **Overview** — KPI cards, revenue by state, monthly trend, payment method mix, and geographic revenue map:
 
-![Dashboard Overview](screenshots/dashboard_overview.png)
+![Dashboard Overview](dashboard_overview.png)
 
 **Category Analysis** — top product categories by revenue:
 
-![Category Analysis](screenshots/category_analysis.png)
+![Category Analysis](category_analysis.png)
 
 ## 🔮 Revenue Forecasting
 
